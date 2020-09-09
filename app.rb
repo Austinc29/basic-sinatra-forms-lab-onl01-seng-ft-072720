@@ -6,7 +6,6 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    "Hello World"
     @name = params["name"]
     @coach = params["coach"]
     @pg = params["pg"]
